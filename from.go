@@ -11,7 +11,7 @@ func (f *FromClause) ToSQL() (string, []interface{}, error) {
 }
 
 func NewFromClause(t string) Clause {
-	return &FromClause{
+	
 		table: t,
 	}
 }
